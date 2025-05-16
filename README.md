@@ -25,22 +25,29 @@ This project identifies whether an audio sample is real or AI-generated using:
 ---
 
 ## 📁 Project Structure
-deepfake-audio-detector-knn/
-│
-├── data/ # Processed dataset and demo audio
-│ ├── REAL/
-│ └── FAKE/
-│
-├── notebooks/ # Colab-compatible Python code
-│ └── deepfake_knn.ipynb
-│
-├── models/ # Saved model
-│ └── knn_model.pkl
-│
-├── results/ # Evaluation results and visualizations
-│ └── confusion_matrix.png
-│
-└── README.md # This file
+The repository is organized as follows:<br><br>
+synthetic-audio-identification/<br>
+│<br>
+├── notebooks/<br>
+│ └── deepfake_knn.ipynb<br>
+│<br>
+├── models/<br>
+│ └── knn_model.pkl<br>
+│<br>
+├── data/<br>
+│ ├── AUDIO/<br>
+│ ├── DATASET-balanced.csv<br>
+│ └── DEMONSTRATION/<br>
+│<br>
+├── requirements.txt<br>
+├── README.md<br>
+└── scripts/<br>
+└── train_knn.py<br>
+
+> Each folder and file is structured for clear navigation, efficient experimentation, and smooth model deployment.
+
+
+
 
 
 ---
