@@ -26,7 +26,7 @@ This project identifies whether an audio sample is real or AI-generated using:
 
 ## 📁 Project Structure
 The repository is organized as follows:<br><br>
-synthetic-audio-identification/<br>
+deepfake-audio-detector-knn/<br>
  │<br>
  ├── notebooks/<br>
  │ └── deepfake_knn.ipynb<br>
