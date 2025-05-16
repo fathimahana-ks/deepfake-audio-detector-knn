@@ -27,22 +27,22 @@ This project identifies whether an audio sample is real or AI-generated using:
 ## 📁 Project Structure
 The repository is organized as follows:<br><br>
 synthetic-audio-identification/<br>
-│<br>
-├── notebooks/<br>
-│ └── deepfake_knn.ipynb<br>
-│<br>
-├── models/<br>
-│ └── knn_model.pkl<br>
-│<br>
-├── data/<br>
-│ ├── AUDIO/<br>
-│ ├── DATASET-balanced.csv<br>
-│ └── DEMONSTRATION/<br>
-│<br>
-├── requirements.txt<br>
-├── README.md<br>
-└── scripts/<br>
-└── train_knn.py<br>
+ │<br>
+ ├── notebooks/<br>
+ │ └── deepfake_knn.ipynb<br>
+ │<br>
+ ├── models/<br>
+ │ └── knn_model.pkl<br>
+ │<br>
+ ├── data/<br>
+ │ ├── AUDIO/<br>
+ │ ├── DATASET-balanced.csv<br>
+ │ └── DEMONSTRATION/<br>
+ │<br>
+ ├── requirements.txt<br>
+ ├── README.md<br>
+ └── scripts/<br>
+ └── train_knn.py<br>
 
 > Each folder and file is structured for clear navigation, efficient experimentation, and smooth model deployment.
 
@@ -91,13 +91,14 @@ synthetic-audio-identification/<br>
 
 Use the saved  model to make predictions on new audio features:
 
-   ```bash
-   import joblib
+    ```bash
+    import joblib
+    
+    model = joblib.load('models/knn_model.pkl')
+    prediction = model.predict([your_features])
+    print("Prediction:", prediction[0])
+    ```
    
-   model = joblib.load('models/knn_model.pkl')
-   prediction = model.predict([your_features])
-   print("Prediction:", prediction[0])
-   ```
 ---
 
 ## 📌 Notes
@@ -114,6 +115,6 @@ Use the saved  model to make predictions on new audio features:
 
 **Fathima Hana**  
 📧 [fathimahanaks@gmail.com](mailto:fathimahanaks@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/fathimahana/)  <!-- Replace with your actual LinkedIn URL -->
+🔗 [LinkedIn](https://www.linkedin.com/in/fathimahana/) 
 
 Feel free to reach out for collaborations or questions!
