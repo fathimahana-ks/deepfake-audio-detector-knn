@@ -91,13 +91,13 @@ deepfake-audio-detector-knn/<br>
 
 Use the saved  model to make predictions on new audio features:
 
-    ```bash
-    import joblib
-    
-    model = joblib.load('models/knn_model.pkl')
-    prediction = model.predict([your_features])
-    print("Prediction:", prediction[0])
-    ```
+   ```bash
+   import joblib
+   
+   model = joblib.load('models/knn_model.pkl')
+   prediction = model.predict([your_features])
+   print("Prediction:", prediction[0])
+   ```
    
 ---
 
