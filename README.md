@@ -26,23 +26,25 @@ This project identifies whether an audio sample is real or AI-generated using:
 
 ## 📁 Project Structure
 The repository is organized as follows:<br><br>
-deepfake-audio-detector-knn/<br>
- │<br>
- ├── notebooks/<br>
- │ └── deepfake_knn.ipynb<br>
- │<br>
- ├── models/<br>
- │ └── knn_model.pkl<br>
- │<br>
- ├── data/<br>
- │ ├── AUDIO/<br>
- │ ├── DATASET-balanced.csv<br>
- │ └── DEMONSTRATION/<br>
- │<br>
- ├── requirements.txt<br>
- ├── README.md<br>
- └── scripts/<br>
- └── train_knn.py<br>
+`deepfake-audio-detector-knn/`<br>
+│<br>
+├── `notebooks/`<br>
+│  └── `deepfake_knn.ipynb`<br>
+│<br>
+├── `models/`<br>
+│  └── `knn_model.pkl`<br>
+│<br>
+├── `data/`<br>
+│  ├── `AUDIO/`<br>
+│  ├── `DATASET-balanced.csv`<br>
+│  └── `DEMONSTRATION/`<br>
+│<br>
+├── `scripts/`<br>
+│  └── `train_knn.py`<br>
+│<br>
+├── `requirements.txt`<br>
+├── `README.md`<br><br>
+
 
 > Each folder and file is structured for clear navigation, efficient experimentation, and smooth model deployment.
 
