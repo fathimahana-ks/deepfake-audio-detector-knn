@@ -1,4 +1,4 @@
-# 🎧 Deepfake Audio Detector - KNN
+# 🎧 EchoScan – Deepfake Audio Detection
 
 A K-Nearest Neighbors (KNN)-based system to classify synthetic (deepfake) and real audio using Mel-Frequency Cepstral Coefficients (MFCCs).
 
