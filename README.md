@@ -39,9 +39,6 @@ The repository is organized as follows:<br><br>
 │  ├── `DATASET-balanced.csv`<br>
 │  └── `DEMONSTRATION/`<br>
 │<br>
-├── `scripts/`<br>
-│  └── `train_knn.py`<br>
-│<br>
 ├── `requirements.txt`<br>
 ├── `README.md`<br><br>
 
